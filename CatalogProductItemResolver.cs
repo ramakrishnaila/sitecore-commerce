@@ -1,4 +1,4 @@
-using Horizontal.Commerce.Foundation.Catalog.Managers;
+
 using Sitecore.Commerce.XA.Foundation.Catalog.Managers;
 using Sitecore.Commerce.XA.Foundation.Common.Context;
 using Sitecore.Commerce.XA.Foundation.Common.Models;
