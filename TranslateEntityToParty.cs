@@ -3,7 +3,7 @@ using Sitecore.Commerce.Engine.Connect.Entities;
 using Sitecore.Commerce.Engine.Connect.Pipelines;
 using Sitecore.Commerce.Engine.Connect.Pipelines.Arguments;
 
-namespace Brother.Commerce.Engine.Connect.Pipelines.Customers
+namespace HI.Commerce.Engine.Connect.Pipelines.Customers
 {
     public class TranslateEntityToParty : TranslateEntityToODataModel<TranslateEntityToPartyRequest, TranslateEntityToPartyResult, CommerceParty, Party>
     {
