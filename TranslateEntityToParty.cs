@@ -28,6 +28,7 @@ namespace HI.Commerce.Engine.Connect.Pipelines.Customers
             destination.ZipPostalCode = source.ZipPostalCode;
             destination.PhoneNumber = source.PhoneNumber;
             destination.IsPrimary = source.IsPrimary;
+            //this code is custom code which gets the company information from sitecore knock out form and send it to engine.
             destination.Organization = source.Company; 
         }
     }
