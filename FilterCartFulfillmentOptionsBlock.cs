@@ -62,7 +62,7 @@ namespace Custom.Commerce.Plugin.Fulfillment
                     {
                         cartHasTangibleProducts = true;
                     }
-           }
+                    }
        }
           //cart has digital products only
           if(cartHasDigitalProducts && !cartHasTangibleProducts)
