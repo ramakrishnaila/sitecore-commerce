@@ -7,7 +7,6 @@
 namespace Sitecore.Commerce.Plugin.Sample
 {
     using System.Reflection;
-    using Brother.Commerce.Plugin.Availability;
     using Microsoft.Extensions.DependencyInjection;
     using Sitecore.Commerce.Core;
     using Sitecore.Commerce.EntityViews;
