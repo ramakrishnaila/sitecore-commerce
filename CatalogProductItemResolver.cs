@@ -72,7 +72,7 @@ namespace Horizontal.Commerce.Foundation.Catalog.Pipelines
             }
             catch (Exception ex)
             {
-                BIC.Diagnostics.Logger.Error("Error occured found for CatalogProductItemResolver method" + ex);
+                Diagnostics.Logger.Error("Error occured found for CatalogProductItemResolver method" + ex);
             }
         }
 
