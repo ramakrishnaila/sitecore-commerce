@@ -15,7 +15,7 @@ using System;
 using System.Globalization;
 using System.Web;
 
-namespace Horizontal.Commerce.Foundation.Catalog.Pipelines
+namespace Custom.Commerce.Foundation.Catalog.Pipelines
 {
     public class CatalogProductItemResolver : HttpRequestProcessor
     {
