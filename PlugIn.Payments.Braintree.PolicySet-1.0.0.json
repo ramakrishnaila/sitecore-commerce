@@ -1,0 +1,56 @@
+﻿{
+  "$type": "Sitecore.Commerce.Core.PolicySet, Sitecore.Commerce.Core",
+  "Id": "Entity-PolicySet-BraintreePolicySet",
+  "Version": 1,
+  "IsPersisted": false,
+  "Name": "BraintreePolicySet",
+  "Policies": {
+    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Policy, Sitecore.Commerce.Core]], mscorlib",
+    "$values": [
+      {
+        "$type": "HI.Commerce.Plugin.Payments.Braintree.Policies.BraintreePolicy, HI.Commerce.Plugin.Payments.Braintree",
+        "Storefront": "CatalogA",
+        "Environment": "sandbox",
+        "MerchantId": "kt9t9vncd4c9wmnz",
+        "PublicKey": "fbdzyd89dsmhcws9",
+        "PrivateKey": "516b8583dcf0231380f1224dd6eb50de",
+        "Merchants": [
+          {
+            "CurrencyCode": "USD",
+            "MerchantId": "CatalogA_SANDBOX"
+          }
+        ]
+      },
+      {
+        "$type": "HI.Commerce.Plugin.Payments.Braintree.Policies.BraintreePolicy, HI.Commerce.Plugin.Payments.Braintree",
+        "Storefront": "CatalogB",
+        "Environment": "sandbox",
+        "MerchantId": "kt9t9vncd4c9wmnz",
+        "PublicKey": "fbdzyd89dsmhcws9",
+        "PrivateKey": "516b8583dcf0231380f1224dd6eb50de",
+        "FullfillmentLocation": "United States/Pennsylvania",
+        "Merchants": [
+          {
+            "CurrencyCode": "USD",
+            "MerchantId": "CatalogB_SANDBOX"
+          }
+        ]
+      },
+      {
+        "$type": "HI.Commerce.Plugin.Payments.Braintree.Policies.BraintreePolicy, HI.Commerce.Plugin.Payments.Braintree",
+        "Storefront": "CatalogB",
+        "Environment": "sandbox",
+        "MerchantId": "kt9t9vncd4c9wmnz",
+        "PublicKey": "fbdzyd89dsmhcws9",
+        "PrivateKey": "516b8583dcf0231380f1224dd6eb50de",
+        "FullfillmentLocation": "United States/NewJersey",
+        "Merchants": [
+          {
+            "CurrencyCode": "USD",
+            "MerchantId": "CatalogB__SANDBOX"
+          }
+        ]
+      }
+    ]
+  }
+}
